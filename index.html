@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ Digitech</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/90eef8d2a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="animation">
+        <span style="--i:1;"></span>
+        <!-- <span style="--i:2;"></span> -->
+        <!-- <span style="--i:3;"></span> -->
+        <span style="--i:4;"></span>
+        <!-- <span style="--i:5;"></span> -->
+        <!-- <span style="--i:6;"></span> -->
+        <!-- <span style="--i:7;"></span> -->
+        <span style="--i:8;"></span>
+        <!-- <span style="--i:9;"></span> -->
+        <span style="--i:10;"></span>
+        <!-- <span style="--i:11;"></span>
+        <span style="--i:12;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:16;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:19;"></span>
+        <span style="--i:20;"></span> -->
+    </div>
+    <!-- --------- Header ---------- -->
+    <section id="header">
+        <div class="container">
+            <div class="nav-bar">
+                <div class="logo">
+                    <h1><span>AJ</span> Digitech</h1>
+                </div>
+                <div class="nav-item">
+                    <ul id="sidemenu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </div>
+            </div>
+            <div class="info">
+                <h1 class="text">Transform your business with<br> <span>AJ Digitech</span> <br>digital marketing agensy</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------- Services ----------- -->
+
+    <section id="services">
+        <div class="product-container">
+            <h1 class="super-heading">Our Services</h1>
+            <div class="product-section">
+                <a href="#socialMedia">
+                <div class="product"   onclick="opentab('socialMedia')">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>Social Media Marketing</h1>
+                    <span>Learn More</span>
+                </div></a>
+                <a href="#performance">
+                    <div class="product" onclick="opentab('performance')">
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <h1>Performance Marketing</h1>
+                    <span>Learn More</span>
+                </div></a>
+                <a href="#searchEngine">
+                    <div class="product" onclick="opentab('searchEngine')">
+                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
+                    <h1>Search Engine Optimization</h1>
+                    <span>Learn More</span>
+                </div></a>
+                <a href="#website">
+                    <div class="product" onclick="opentab('website')">
+                    <i class="fa-sharp fa-solid fa-globe"></i>
+                    <h1>Website Development</h1>
+                    <span>Learn More</span>
+                </div></a>
+                <a href="#branding">
+                    <div class="product" onclick="opentab('branding')">
+                    <i class="fa-solid fa-brain"></i>
+                    <h1>Branding</h1>
+                    <span>Learn More</span>
+                </div></a>
+                <a href="#lead">
+                    <div class="product" onclick="opentab('lead')">
+                    <i class="fa-solid fa-people-roof"></i>
+                    <h1>Lead Management</h1>
+                    <span>Learn More</span>
+                </div></a>
+            </div>
+            <h1 class="load">Load More</h1>
+        </div>
+      
+        
+        <div class="product-detail" id="socialMedia">
+            <div class="head-para">
+                <h1>Social Media Marketing</h1>
+                <h3>BUILD YOUR SOCIAL MEDIA PRESENCE</h3>
+                <h5>OUR SOCIAL MEDIA MARKETING SERVICES</h5>
+            </div>
+            
+            <div class="sub-para">
+                <div class="super-para">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <h1>Social Media Profile Setup</h1>
+                    <p>Have you been struggling to keep up with your social media 
+                        profiles? Social media is a great way to reach out and engage
+                        with your customers, but it can be hard to manage all of the
+                        different platforms. That's where we come in! We can help you create custom profiles that
+                        will help you boost engagement and grow your business.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-brands fa-square-google-plus"></i>
+                    <h1>Social Media Management</h1>
+                    <p>We know how important social media is for businesses, 
+                        which is why we're here to take the stress out of your 
+                        day-to-day management. Our team will create unique content 
+                        and reply to customers in a positive manner so you can focus 
+                        on what matters most - growing your business. Let us handle 
+                        everything from creating engaging content to responding quickly.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-sharp fa-solid fa-address-card"></i>
+                    <h1>Content Creation</h1>
+                    <p>Social media is one of the most important tools in marketing today.
+                         But if you don't have enough content or aren't engaging enough, 
+                         then all that hard work can go down the drain. That's why we're 
+                         here! We'll create unique content for your social media accounts 
+                         which includes engaging, educational and promotional content which 
+                         directly helps your business to gain more customers and leads.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-brands fa-facebook"></i>
+                    <h1>Facebook Ads</h1>
+                    <p>Facebook lets you target ads at very specific audiences. 
+                        Because of the possibilities, an ad budget can go quickly, 
+                        and it's important to know how to get the most out of your 
+                        Facebook ad spend efficiently. We plan, create, optimize and 
+                        analyze highly targeted Facebook ad campaigns that generate high ROI for your business.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-brands fa-youtube"></i>
+                    <h1>YouTube Ads</h1>
+                    <p>Video Ads are an effective way to get your message in 
+                        front of customers. Achieve remarkable customer engagement
+                         with Video Ads in Facebook and YouTube. Advertise on video 
+                         content that your customers will remember to increase sales and build brand awareness.</p>
+                </div><div class="super-para">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <h1>Linkedin Ads</h1>
+                    <p>LinkedIn is the No 1 place where B2B decision makers network,
+                         look to solve problems and discover business solutions. 
+                         With LinkedIn Advertising, your company can connect directly 
+                         with these decision makers and deliver messages that resonate better 
+                         than a cold call. Let us maximize the effectiveness of your LinkedIn advertising campaigns.</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="product-detail" id="performance">
+            <div class="head-para">
+                <h1>Performance Marketing</h1>
+                <h3>INCREASE CONVERSIONS & SALES</h3>
+                <h5>OUR PERFORMANCE MARKETING SERVICES</h5>
+            </div>
+            
+            <div class="sub-para">
+                <div class="super-para">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    <h1>Search Ads</h1>
+                    <p>Paid search advertising with an experienced firm like ours 
+                        is an excellent way to reach new customers interested in 
+                        your products and help turn browsers into buyers. Our team 
+                        of experts helps to effective paid search campaigns that 
+                        convert the right customers into leads and sales.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-brands fa-twitter"></i>
+                    <h1>Display Ads</h1>
+                    <p>You've seen it while you were browsing the web, but did you know 
+                        that display advertising can get your business in front of customers when 
+                        they visit your industry-related competitor and affiliate websites? Our 
+                        team of experts will create display ads using photos and text that best represent your business</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-sharp fa-solid fa-video"></i>
+                    <h1>Video Ads</h1>
+                    <p>Video Ads are an effective way to get your message in front of customers. 
+                        Achieve remarkable customer engagement with Video Ads in Facebook and YouTube. 
+                        Advertise on video content that your customers will remember to increase sales and build brand awareness</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h1>Shopping Ads</h1>
+                    <p>Google Shopping ads allow you to sell more products. Google Shopping 
+                        ads show your products in a carousel above and beside the main Google 
+                        search results. When prospects click on your ad, they see the products 
+                        and prices on your website. Get more sales from shoppers who are ready to buy now.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-repeat"></i>
+                    <h1>Remarketing Ads</h1>
+                    <p>Remarketing is a great opportunity to get those customers who have already 
+                        shown interest in your business to actually convert into customers. And 
+                        since you are reaching them with ads they are likely to take notice of, 
+                        the conversion rate will go very high. Let our team of experts helps you to get lost customers back.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <h1>Facebook Ads</h1>
+                    <p>Facebook lets you target ads at very specific audiences. 
+                        Because of the possibilities, an ad budget can go quickly, 
+                        and it's important to know how to get the most out of your 
+                        Facebook ad spend efficiently. We plan, create, optimize and 
+                        analyze highly targeted Facebook ad campaigns that generate high ROI for your business.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <h1>Linkedin Ads</h1>
+                    <p>LinkedIn is the No 1 place where B2B decision makers network,
+                         look to solve problems and discover business solutions. 
+                         With LinkedIn Advertising, your company can connect directly 
+                         with these decision makers and deliver messages that resonate better 
+                         than a cold call. Let us maximize the effectiveness of your LinkedIn advertising campaigns.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <h1>Instagram Ads</h1>
+                    <p>Instagram is a visual platform as we all know and high-quality images 
+                        will win the day for any business. Our expertise lies in creating campaigns 
+                        that naturally attract and engage the right audience for your business. AJ Digitech 
+                        can help you achieve your marketing and sales goals, increase 
+                        website visits, conversions and awareness.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-star-of-david"></i>
+                    <h1>Hotstar Ads</h1>
+                    <p>Hotstar, India's top destination app for TV shows and movies. 
+                        For advertisers, TV show and movie content on Instagram gives 
+                        them a new medium to reach engaged users in an authentic way. 
+                        To help you drive more traffic, increase brand awareness and 
+                        deliver measurable results to your business, our team can help you in every step.</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="product-detail" id="searchEngine">
+            <div class="head-para">
+                <h1>Search Engine Optimization</h1>
+                <h3>GET NOTICED ONLINE</h3>
+                <h5>OUR SEO SERVICES</h5>
+            </div>
+           
+            <div class="sub-para">
+                <div class="super-para">
+                    <i class="fa-solid fa-key"></i>
+                    <h1>Keyword Research</h1>
+                    <p>AJ Digitech does keyword research to help you get found online for
+                         things people might search for. We research in order to gain 
+                         a deeper understanding of the market and we create an action 
+                         plan to help you rank better for more of those opportunities.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-link"></i>
+                    <h1>Link Building</h1>
+                    <p>AJ Digitech's dedicated link building team understands how to build a 
+                        strategic link profile, which has a positive impact on SEO and overall 
+                        user experience. With AJ Digitech, you get backlinks from other sites that are 
+                        both high quality and relevant to your business.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-brands fa-searchengin"></i>
+                    <h1>Technical SEO</h1>
+                    <p>Technical SEO helps improve your rankings by optimizing your website's 
+                        back-end through speed and other issues. If you want help improving 
+                        rankings, then technical SEO is a great way to start. It shows search 
+                        engines that you care about your business.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-reply"></i>
+                    <h1>On Page SEO</h1>
+                    <p>AJ Digitech's SEO services are designed to make your site more visible 
+                        to search engines. Our SEO experts will craft targeted, optimized 
+                        content, integrate internal link structures, optimize your images, 
+                        adjust the TITLE and meta description tags, and more.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-reply-all"></i>
+                    <h1>Off Page SEO</h1>
+                    <p>Off Page SEO helps you get more exposure on Google, Bing and 
+                        other search engines by building links to your website from external 
+                        sources. Our services can help you establish or enhance your brand 
+                        credibility and increase online exposure by establishing trust, authority</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-sharp fa-solid fa-basket-shopping"></i>
+                    <h1>Ecommerce SEO</h1>
+                    <p>Having your e-commerce site optimized for SEO means you can 
+                        gain access to a larger audience. We optimize keywords and meta descriptions 
+                        within the product pages to get more traffics and increase sales on your e-commerce site.</p>
+                        
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-pen"></i>
+                    <h1>Content Writing</h1>
+                    <p>Though search engines and web users rely heavily upon the content you provide, 
+                        writing web copy can be a challenge. Our team of SEO copywriters has the skills 
+                        to turn your ideas into marketable content that will place your website in prime 
+                        position among search engine results</p>
+                        
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-magnifying-glass-location"></i>
+                    <h1>Local SEO</h1>
+                    <p>Our Local SEO services are designed to help you improve your company's 
+                        local SEO performance through the use of strategic link building, directory management, 
+                        content marketing and more, we increase organic traffic to your GMB profile or business listing.</p>
+                        
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-users-between-lines"></i>
+                    <h1>Conversion Optimization</h1>
+                    <p>AJ Digitech helps you increase your website's conversion rate by analyses, 
+                        landing page optimization, and A/B split testing. We optimize your 
+                        websites and landing pages using our techniques honed through years of experience.</p>
+                        
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="product-detail" id="website">
+            <div class="head-para">
+                <h1>Website Development</h1>
+                <h3>AFFORDABLE AND CUSTOMIZABLE WEBSITE DESIGN</h3>
+                <h5>OUR WEB DESIGN SERVICES</h5>
+            </div>
+            
+            <div class="sub-para">
+                <div class="super-para">
+                    <i class="fa-brands fa-wordpress"></i>
+                    <h1>Business WordPress Website</h1>
+                    <p>We design friendly websites that will help your business grow. 
+                        Our team of designers and developers are experts in creating beautiful, 
+                        responsive websites that look great on any device. Whether you're an 
+                        established brand or just starting out, we can create the perfect site for your needs.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-sharp fa-solid fa-code-compare"></i>
+                    <h1>Ecommerce WordPress Website</h1>
+                    <p>We design responsive ecommerce websites that help you sell your products online. 
+                        Our team is passionate about creating beautiful and functional designs that will
+                         make your customers want to buy from you again and again. Whether it's 
+                         a small business or an established brand, we can create the perfect website for any need.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-brands fa-wordpress-simple"></i>
+                    <h1>Customized WordPress Development</h1>
+                    <p>We can help you build your own customized website. Our websites are 
+                        tailor made for you and it will contain all the features that you need. 
+                        You don't need to worry about anything because we will do everything for you</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-sharp fa-solid fa-browser"></i>
+                    <h1>Custom Website Development</h1>
+                    <p>We will build your website from scratch and make it unique, responsive and SEO friendly. 
+                        Our team of developers are experienced in coding websites that look great on all devices.
+                         We offer unlimited revisions until you're satisfied with the final product!</p>
+                </div>
+                <!-- <div class="super-para">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>YouTube Ads</h1>
+                    <p>Video Ads are an effective way to get your message in 
+                        front of customers. Achieve remarkable customer engagement
+                         with Video Ads in Facebook and YouTube. Advertise on video 
+                         content that your customers will remember to increase sales and build brand awareness.</p>
+                </div><div class="super-para">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>Linkedin Ads</h1>
+                    <p>LinkedIn is the No 1 place where B2B decision makers network,
+                         look to solve problems and discover business solutions. 
+                         With LinkedIn Advertising, your company can connect directly 
+                         with these decision makers and deliver messages that resonate better 
+                         than a cold call. Let us maximize the effectiveness of your LinkedIn advertising campaigns.</p>
+                </div> -->
+            </div>
+            
+        </div>
+
+
+
+
+
+
+
+        <div class="product-detail" id="branding">
+            <div class="head-para">
+                <h1>Branding</h1>
+                <h3>MAKE YOUR BUSINESS STAND OUT</h3>
+                <h5>OUR BRANDING SERVICES</h5>
+            </div>
+            <div class="sub-para">
+                <div class="super-para">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>Logo Designing services</h1>
+                    <p>A logo is a simple and smart representation of your company. 
+                        At AJ Digitech, our team will render a logo that will help you to 
+                        stand out in the minds of your target audience. This can help 
+                        you build goodwill in the eyes of customers and prospects and make 
+                        you more memorable through a branded identity.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>Stationery Designing</h1>
+                    <p>Our stationery designing service lets you flaunt the essence of 
+                        your company with unique hand crafted designs. We offer personalized 
+                        and photo imprinted stationery designs such as photo notepad designing, 
+                        lanyard designing, badge laminating that make an exceptional promotional gift.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>Product Packaging Designing</h1>
+                    <p>If you’re looking for a design company that knows how to create retail packaging 
+                        effects that sell more products look no further than AJ Digitech Product Designing Services. 
+                        Our designs inspire trust and confidence in your products, which leads to increased sales 
+                        and repeat purchases.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>Website App UI/UX Designing</h1>
+                    <p>No matter what industry your business falls into, we can design an interface that 
+                        works best for both you and your users. With over 10 years of combined UX design experience 
+                        under our belts, we know how to create beautiful interfaces which provide the best possible
+                         user experience while also ensuring ease of use for all audiences 
+                         regardless of age or technical ability level.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>Social Media Graphics</h1>
+                    <p>Do you want to increase your social media engagement? We will create unique and 
+                        engaging graphics for your social media that will generate more likes, comments, 
+                        shares, and followers. Our designs are clean and modern so they look great across 
+                        all platforms. Let us take care of all your graphic design needs so you can focus on growing your business.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>Brand Awareness</h1>
+                    <p>Brand Awareness is the most important thing for every business. If anyone don't know about your 
+                        product, how can they buy it? So at AJ Digitech we will aware your target audience through pre planned 
+                        strategies. We have a team of experts who are working on different aspects of marketing and branding 
+                        so that you can get more customers in less time.
+                    </p>
+                        
+                </div>
+            </div>
+            
+        </div>
+
+
+
+        <div class="product-detail" id="lead">
+            <div class="head-para">
+                <h1>Lead Management</h1>
+                <h3></h3>
+                <h5>OUR Lead Management SERVICES</h5>
+            </div>
+            <div class="sub-para">
+                <div class="super-para">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>Track of Leads</h1>
+                    <p>It is vital to ensure you keep track of leads at all stages to maximum
+                         conversions for a business. With this lead management software, you can 
+                         monitor a lead more effectively as it passes through the sales funnel from 
+                         the moment you acquire it to the nurturing and conversion stages.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>Lead Segmentation and Nurturing</h1>
+                    <p>By including advanced technology in the lead management process, it is possible to 
+                        segment leads based on factors like geography, demography, and buying behavior. The 
+                        sales lead management software makes it easy to nurture the right set of leads and 
+                        improve your marketing strategy through segmentation.</p>
+                </div>
+                <div class="super-para">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>Sales Funnel Database</h1>
+                    <p>Complete sales funnels provide valuable information for future marketing campaigns. 
+                        When using lead management software, you can keep this valuable data in a database 
+                        to ensure you can use it in the future.</p>
+                </div>
+                
+            </div>
+            
+        </div>
+
+    </section>
+
+
+<!-- -------------------  Contact  --------------------- -->
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tital">Contact US</h1>
+                <p>
+                    <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                    ajdigitech@gmail.com</p>
+                <p>
+                    <i class="fa-sharp fa-solid fa-phone"></i>
+                    7980823453</p>
+                <div class="social-icons">
+                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a> 
+                </div>
+                <!-- <a href="my-cv.pdf" download class="btn btn2">Download CV</a> -->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ AJ Digitech. Made with
+            <i class="fa-solid fa-heart"></i>
+         by Peush Jha</p>
+    </div>
+</section>
+
+        
+    <script>
+
+        var product = document.getElementsByClassName("product");
+        var product_detail = document.getElementsByClassName("product-detail");
+    
+        function opentab(product_Name){
+            for(product_contant of product_detail){
+                product_contant.classList.remove("active-tab");
+            }
+            document.getElementById(product_Name).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+        
+        
+        
+  
+</body>
+</html>
